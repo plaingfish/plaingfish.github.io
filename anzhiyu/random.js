@@ -1,3 +1,3 @@
-var posts=["2024/09/25/Centos7安装Nginx/","2024/09/24/Centos7安装Mysql/"];function toRandomPost(){
+var posts=["post/20240925100320.html","post/20240924221104.html"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
